@@ -3,6 +3,8 @@ eureka:
   client:
     serviceUrl:
       defaultZone: http://localhost:8761/eureka/
+    refresh:
+      enable: false
 server:
   # port를 0으로 세팅하면 spring이 임의 port를 할당(굳이 8081..등으로 관리할 필요없음)
   # eureka에 등록할 때 할당된 임의 port를 알려주고 apigate가 ureka에게 물어보므로 개발자가 port를 관리할 필요가 없다
