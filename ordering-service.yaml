@@ -1,4 +1,6 @@
 # spring bean 객체를 만들 때 가저오는 용도, jpa와 라인 맞춰서 작성
+server:
+  port: 8085
 spring:
   kafka:
     kafka-server: localhost:9092
