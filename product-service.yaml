@@ -1,4 +1,6 @@
 # spring bean 객체를 만들때 가져오는 용도
+server:
+  port: 8084
 spring:
   kafka:
     kafka-server: localhost:9092
